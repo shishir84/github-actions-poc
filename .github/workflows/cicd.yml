@@ -39,6 +39,7 @@ jobs:
 
   Unit-Test:
     runs-on: self-hosted    
+    needs: security-scan
     steps:
     - uses: actions/checkout@v4
     - name: Set up JDK 17
