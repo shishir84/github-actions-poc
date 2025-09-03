@@ -112,4 +112,5 @@ jobs:
       with:
         push: true
         tags: docshishir/github-actions:latest
+        file: ./Dockerfile
       
